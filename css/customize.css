@@ -66,6 +66,7 @@ button {
     border-radius: 54px;
     transition: 0.25s;
     cursor: pointer;
+    text-decoration: none;
 }
 button:hover{
     background: #005AFF;
@@ -148,3 +149,13 @@ form input[type="file"] {
           display: none;
           cursor: pointer;
  }
+a {
+    text-decoration: none; 
+    color: #005AFF;
+    margin-left: 24px;
+}
+a:hover {
+    text-decoration: none; 
+    color: #ffffff;
+    margin-left: 24px;
+}

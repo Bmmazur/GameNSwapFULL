@@ -20,8 +20,8 @@
 .buttonSearch {
             background-color: transparent;
             color: black;
-            background-color: rgb(13, 255, 0);
-            border: 2px solid rgb(13, 255, 0);
+            background-color: rgb(0, 229, 127);
+            border: 2px solid rgb(0, 229, 127);
             height: 40px;
             padding-left: 15px;
             padding-right: 15px;
@@ -30,9 +30,9 @@
 .searchWindow {
             background-color: transparent;
             height: 40px;
-            color: rgb(13, 255, 0);
+            color: rgb(0, 229, 127);
             padding-left: 15px;
-            border: 2px solid rgb(13, 255, 0);
+            border: 2px solid rgb(0, 229, 127);
           }
 
     /*! labels basics Page Architecture */
@@ -68,7 +68,7 @@ body {
 /*! Content styles */
 .header {
     display: flex;
-    background-color: blue;
+    background-color: #005AFF;
     align-items: flex-end;
     justify-content: end;
   }
@@ -126,18 +126,18 @@ form input[type="file"] {
     animation: glow 1s ease-in-out infinite alternate;
   }
   
-  @-webkit-keyframes glow {
+  @keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(196, 250, 0), 0 0 40px rgb(196, 250, 0), 0 0 50px rgb(196, 250, 0), 0 0 60px rgb(196, 250, 0), 0 0 70px rgb(196, 250, 0);
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 229, 127), 0 0 40px rgb(0, 229, 127), 0 0 50px rgb(0, 229, 127), 0 0 60px rgb(0, 229, 127), 0 0 70px rgb(0, 229, 127);
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px rgb(196, 250, 0), 0 0 40px rgb(196, 250, 0), 0 0 50px rgb(196, 250, 0), 0 0 60px rgb(196, 250, 0), 0 0 70px rgb(196, 250, 0), 0 0 80px rgb(196, 250, 0);
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 229, 127), 0 0 40px rgb(0, 229, 127), 0 0 50px rgb(0, 229, 127), 0 0 60px rgb(0, 229, 127), 0 0 70px rgb(0, 229, 127), 0 0 80px rgb(0, 229, 127);
     }
   }
 
 .carouselBox {
-    min height: 1200px;
+  min-height: 1200px;
 }
 
 
@@ -206,17 +206,19 @@ space {
     text-align: center;
  }
  .megaHed {
+        display: flex;
+        justify-content: center;
         font-family: 'ethnocentric', sans-serif;
-        font-size: 8.5vw;
+        font-size: 64pt;
         font-weight: 700;
-        color: rgb(13, 255, 0);
-        filter: drop-shadow(0px 0px 20px rgba(0, 246, 4, 0.76));
+        color: rgb(255, 255, 255);
         }
+
 .mainBar {
     width: 100%;
     margin-left: 30px;
     margin-right: 10px;
 }
 h8 {
-    color: rgb(13, 255, 0);
+    color: rgb(0, 229, 127);
 }

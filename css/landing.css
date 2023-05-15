@@ -145,20 +145,16 @@ Thin 100
                     font-weight: 700;
                     animation: glow 2s;
                   }
-    a {
-        font-family: 'Inter', sans-serif;
-                        font-size: 16px;
-                        color:  #00E57F;
-                        font-weight: 400;
-                        text-decoration: none;
-                        text-align: center;
-                        display: inline;
-                        }
-                        a:hover { 
-                            color:  #00E57F;
-                            font-weight: 700;
-                            animation: glow 2s;
-                          }
+    h9 {
+            font-family: 'ethnocentric', sans-serif;
+                font-size: 24px;
+                color: #005AFF;
+                font-weight: 700;
+                }
+                h9:hover { 
+                    color: rgb(255, 255, 255);
+                    font-weight: 700;
+                  }
     
     /*! labels basics Page Architecture */
     .finePrint {
@@ -315,34 +311,7 @@ Thin 100
         border-color: #00E57F;
     }
     
-    .box input[type = "submit"]{
-        border: 0;
-        background: none;
-        display: block;
-        margin: 40px auto;
-        text-align: center;
-        font-size: 20px;
-        font-family: 'ethnocentric', sans-serif;
-        border: 2px solid #005AFF;
-        width: 416px;
-        padding: 14px 20px;
-        outline: none;
-        color: #005AFF;
-        border-radius: 54px;
-        transition: 0.25s;
-        cursor: pointer;
-    }
-    .box input[type = "submit"]:hover{
-        background: #00E57F;
-        width: 216px;
-        border: 2px solid #00E57F;
-        color: #191919;
-        box-shadow: 0 0 20px #00000063, 0 0 30px #00E57F, 0 0 26px #00E57F, 0 0 35px;
-        ;
-    }
-    
-    
-    
+
     
     .logoTop {
         position: absolute;
@@ -472,8 +441,6 @@ Thin 100
             visibility: visible;
         }  }
     
-
-
       .topVid {
         position: relative;
         display: flex;
@@ -483,5 +450,32 @@ Thin 100
         padding-left: 200px;
         padding-right: 200px;
       }
+a {
+    text-decoration: none;
+    color: #005AFF;
+}
 
-      
+
+      .submit {
+        display: block;
+        margin: 40px auto;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'ethnocentric', sans-serif;
+        text-decoration: none;
+        border: 2px solid #005AFF;
+        width: 216px;
+        padding: 14px 20px;
+        color: #005AFF;
+        border-radius: 54px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    .submit:hover{
+        background: #005AFF;
+        width: 216px;
+        border: 2px solid #005AFF;
+        color: #191919;
+        box-shadow: 0 0 20px #00000063, 0 0 30px #005AFF, 0 0 26px #005AFF, 0 0 35px;
+        ;
+    }

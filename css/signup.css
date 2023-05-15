@@ -30,6 +30,7 @@
     .bg-left {
     background-color: #ffffff;
     color: #005AFF;
+    
     }
     @media (min-width: 992px) {
     .card-registration-2 .bg-indigo {
@@ -58,35 +59,27 @@
 }
 #form3Examplea2 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea3 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea4 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea5 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea6 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea7 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea8 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 #form3Examplea9 {
     border-radius: 54px;
-    border: 2px solid #005AFF;
 }
 button {
     border: 0;
@@ -96,6 +89,7 @@ button {
     font-size: 20px;
     font-family: 'ethnocentric', sans-serif;
     border: 2px solid #ffffff;
+    text-decoration: none;
     width: 216px;
     padding: 10px 27px;
     outline: none;
@@ -127,9 +121,5 @@ select {
     width: 110px;
     background-color: #005AFF;
     color: #ffffff;
+}
 
-}
-.details {
-    color: #005AFF;
-    margin-left: 23px;
-}

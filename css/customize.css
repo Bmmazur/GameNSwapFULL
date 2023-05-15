@@ -51,29 +51,6 @@
     width: 80%
 }
 
-button {
-    border: 0;
-    background: none;
-    display: block;
-    text-align: left;
-    font-size: 20px;
-    font-family: 'ethnocentric', sans-serif;
-    border: 2px solid #005AFF;
-    width: 216px;
-    padding: 10px 27px;
-    outline: none;
-    color: #005AFF;
-    border-radius: 54px;
-    transition: 0.25s;
-    cursor: pointer;
-    text-decoration: none;
-}
-button:hover{
-    background: #005AFF;
-    width: 416px;
-    border: 2px solid #005AFF;
-    color: #ffffff;
-}
 
 h2 {
     margin-left: 23px;
@@ -147,13 +124,36 @@ form input[type="file"] {
           display: none;
           cursor: pointer;
  }
-a {
-    text-decoration: none; 
+ a {
+    text-decoration: none;
     color: #005AFF;
-    margin-left: 24px;
+ }
+ a:hover {
+    text-decoration: none;
+    color: #fff;
+ }
+ button {
+    border: 0;
+    background-color: #fff;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'ethnocentric', sans-serif;
+    border: 2px solid #005AFF;
+    text-decoration: none;
+    width: 216px;
+    padding: 10px 27px;
+    outline: none;
+    color: #005AFF;
+    border-radius: 54px;
+    transition: 0.25s;
+    cursor: pointer;
 }
-a:hover {
-    text-decoration: none; 
-    color: #ffffff;
-    margin-left: 24px;
+button:hover{
+    background-color: #005AFF;
+    width: 416px;
+    border: 2px solid #fff;
+    color: #fff;
+    box-shadow: 0 0 20px #0059ff80, 0 0 30px;
+    ;
 }

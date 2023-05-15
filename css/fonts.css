@@ -37,12 +37,14 @@ Thin 100
         font-weight: 700;
         }
             /* Medium devices (landscape tablets, 768px and up) */
-        @media only screen and (max-width: 768px) 
+        @media only screen and (max-width: 768px) {
             h1 {
-            font-family: 'ethnocentric', sans-serif;
-            font-size: 64px;
-            font-weight: 700;
-        } 
+                font-family: 'ethnocentric', sans-serif;
+                font-size: 64px;
+                font-weight: 700;
+            } 
+        }
+
     
         /*! h2 Headline */
     h2 {
@@ -55,8 +57,8 @@ Thin 100
         @media only screen and (max-width: 768px) {
             h2 {
             font-family: 'ethnocentric', sans-serif;
-            font-size: 32px;}
-            font-weight: 700;
+            font-size: 32px;
+            font-weight: 700;}
         } 
     
         /*! h3 Headline */
@@ -69,8 +71,8 @@ Thin 100
         @media only screen and (max-width: 768px) {
             h3 {
                 font-family: 'bdr-mono', sans-serif;
-                font-size: 32px;}
-                font-weight: 700;
+                font-size: 32px;
+                font-weight: 700;}
         } 
     
         /*! h4 Headline */
@@ -83,8 +85,8 @@ Thin 100
         @media only screen and (max-width: 768px) {
             h4 {
                 font-family: 'bdr-mono', sans-serif;
-                font-size: 20px;}
-                font-weight: 700;
+                font-size: 20px;
+                font-weight: 700;}
         } 
     
         /*! h5 Subhead */
@@ -99,8 +101,8 @@ Thin 100
             h5 {
                 font-family: 'Inter', sans-serif;
                 font-size: 24px;
-                line-height: 44px;}
-                font-weight: 400;
+                line-height: 44px;
+                font-weight: 400;}
         } 
     
         /*! h6 Subhead */
@@ -113,8 +115,8 @@ Thin 100
         @media only screen and (max-width: 768px) {
             h6 {
                 font-family: 'Inter', sans-serif;
-                font-size: 18px;}
-                font-weight: 700;
+                font-size: 18px;
+                font-weight: 700;}
         } 
     
         /*! p Paragraph */
@@ -127,8 +129,8 @@ Thin 100
         @media only screen and (max-width: 768px) {
             h6 {
                 font-family: 'Inter', sans-serif;
-                font-size: 16px;}
-                font-weight: 400;
+                font-size: 16px;
+                font-weight: 400;}
         } 
     
     h7 {
@@ -161,4 +163,4 @@ Thin 100
                         font-family: 'ethnocentric', sans-serif;
                         font-size: 20px;
                         font-weight: 700;
-                    } 
+                    } }

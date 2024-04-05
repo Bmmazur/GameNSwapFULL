@@ -29,6 +29,8 @@
     }
     .bg-left {
     background-color: #ffffff;
+    color: #005AFF;
+    
     }
     @media (min-width: 992px) {
     .card-registration-2 .bg-indigo {
@@ -49,9 +51,11 @@
 }
 #form3Examplev3 {
     border-radius: 54px;
+    border: 2px solid #005AFF;
 }
 #form3Examplev2 {
     border-radius: 54px;
+    border: 2px solid #005AFF;
 }
 #form3Examplea2 {
     border-radius: 54px;
@@ -85,6 +89,7 @@ button {
     font-size: 20px;
     font-family: 'ethnocentric', sans-serif;
     border: 2px solid #ffffff;
+    text-decoration: none;
     width: 216px;
     padding: 10px 27px;
     outline: none;
@@ -111,4 +116,10 @@ h2 {
 }
 select {
     margin-left: 23px;
+    border: 2px solid #005AFF;
+    height: 33px;
+    width: 110px;
+    background-color: #005AFF;
+    color: #ffffff;
 }
+
